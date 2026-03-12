@@ -20,7 +20,7 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
 # ─────────────────── CONFIG ───────────────────
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7810689974:AAEpvoTLLklL22ygLBXpfQGgRzYwWq9leNQ")
 
 # OpenBudget API endpoints
 API_BASE = "https://openbudget.uz/api/v1"
