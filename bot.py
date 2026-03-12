@@ -23,7 +23,7 @@ from openpyxl.utils import get_column_letter
 BOT_TOKEN = os.getenv("BOT_TOKEN", "7810689974:AAEpvoTLLklL22ygLBXpfQGgRzYwWq9leNQ")
 
 # OpenBudget API endpoints
-API_BASE = "https://openbudget.uz/api/v1"
+API_BASE = "http://91.213.99.122:5001/api/v1"
 VOTES_ENDPOINT = f"{API_BASE}/votes"           # GET  ?initiative_id=...
 SCRAPE_ENDPOINT = f"{API_BASE}/scrape_votes"   # POST {"initiative_id": "..."}
 
